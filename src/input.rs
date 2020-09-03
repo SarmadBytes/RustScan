@@ -81,7 +81,7 @@ pub struct Opts {
     /// Turns off Nmap.
     #[structopt(long)]
     pub without_nmap: bool,
-
+  
     /// The batch size for port scanning, it increases or slows the speed of
     /// scanning. Depends on the open file limit of your OS.  If you do 65535
     /// it will do every port at the same time. Although, your OS may not
